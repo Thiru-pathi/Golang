@@ -29,7 +29,7 @@ runs:
 #  image: docker://ghcr.io/the-gophers/go-action:1.0.0
   args:
     - --message
-    - "${{ inputs.message }}"
+    -  ${{ inputs.message }}
     - --apiKey
     - ${{ inputs.apiKey }}
     - --apiKeySecret
